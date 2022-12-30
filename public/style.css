@@ -1,0 +1,76 @@
+/* Basado en el artículo de Carlos Cuba, https://carloscuba014.medium.com/building-a-custom-select-field-without-any-javascript-25c0f10cad53  */
+/* Editado por Jack More */
+
+/* Estilo Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*Estilo Inspiration */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+/* Estilo Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Estilo Poppins Sans Serif */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+/* Estilo Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+/* Estilo Smokum */
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+#dropdown option {
+background-color: white; 
+color: black;
+overflow:hidden; 
+}
+
+#dropdown option:hover{  
+    background: #6f6d6d;     
+    color: #fff;
+  }
+
+#dropdown option:nth-child(2) {
+margin-top:20px; 
+margin-bottom:20px; 
+height: 100px;
+font-family: "Poppins", sans-serif;
+font-size:15px; 
+}
+
+#dropdown option:nth-child(3) {
+margin-top:20px; 
+margin-bottom:20px; 
+height: 100px;
+font-family: "Roboto ";
+font-size: 15px; 
+}
+
+#dropdown option:nth-child(4) {
+margin-top:20px; 
+margin-bottom:20px; 
+height: 100px;
+font-family: "Inspiration";
+font-size: 15px; 
+}
+
+#dropdown option:nth-child(5) {
+margin-top:20px; 
+margin-bottom:20px; 
+height: 100px;
+font-family: "Oswald";
+font-size:15px; 
+}
+
+#dropdown option:nth-child(6) {
+margin-top:20px; 
+margin-bottom:20px; 
+height: 100px;
+font-family:"Smokum"; 
+font-size: 15px; 
+}
+
+.mrg{
+    margin-top: 100px;
+}
+
