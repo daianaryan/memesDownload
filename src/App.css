@@ -1,1 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
+*{
+  margin: 0;    
+  padding: 0;  
+}
+
+body {   
+  font-family: 'Fraunces', serif;	    
+  height: 100vh;      
+} 
+
+.lista {
+	height: 350px;
+	width: 300px;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+  font-size: 12px;
+}
+
+.lista li:hover{  
+  background: #6f6d6d;  
+  color: #fff;
+}
+
+.imgMeme{
+  width: 30px;
+  height:30px;  
+}
+
+.contenedorMeme{  
+  margin: 10px;
+  width: 100%;
+  height: 50%;
+  height: 25% !important;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;  
+  border-radius: 20px;            
+  border: 15px solid #fff;    
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+figure{
+  width: 100%;    
+  height: 25% !important;  
+  margin-top: 20px;
+  position: relative;    
+  border-radius: 30px;            
+  border: 1px solid rgba(0, 0, 0, 0.3);    
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+figure img{
+  height: 50% !important;
+  }
+
+figure p{  
+  width: 100%;    
+  height: auto;
+  margin: 0;
+  padding: 2px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+  white-space: initial;   
+  font-size: calc(10px + 0.5vmin);      
+  font-size: 2rem;  
+  font-family: 'impact', sans-serif; 
+  text-transform: uppercase;  
+  letter-spacing: 2px;
+  text-align: center;    
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;  
+}
+
+.p1{  
+  position: absolute;
+  top: 30px;
+  left: center;      
+}
+
+.p2{
+  position: absolute;
+  bottom: 30px;
+  left: center;     
+}
